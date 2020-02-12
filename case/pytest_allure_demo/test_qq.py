@@ -47,7 +47,7 @@ class Test_qq():
     @allure.story("这是第二个测试用例")
     @allure.issue("禅道BUG地址2")
     @allure.testcase("禅道用例地址2")
-    @pytest.skip
+    # @pytest.skip
     def test_2(self):
         """
         用例描述：这个用例不用登录
